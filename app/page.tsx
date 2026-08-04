@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
             <a href="#principles" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Principles
             </a>
+            <ThemeToggle />
           </nav>
         </div>
       </header>
