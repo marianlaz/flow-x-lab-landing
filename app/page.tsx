@@ -126,9 +126,25 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="text-xs text-muted-foreground">Flow Experiments Lab</span>
           <div className="flex items-center gap-6 text-xs text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">GitHub</a>
-            <a href="#" className="hover:text-foreground transition-colors">Twitter</a>
-            <a href="#" className="hover:text-foreground transition-colors">Contact</a>
+            <a
+              href="https://github.com/marianlaz/flow-x-lab-landing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground transition-colors"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://twitter.com/marianlaz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground transition-colors"
+            >
+              Twitter
+            </a>
+            <a href="mailto:hello@flowexperimentslab.com" className="hover:text-foreground transition-colors">
+              Contact
+            </a>
           </div>
         </div>
       </footer>
