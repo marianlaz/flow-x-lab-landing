@@ -43,7 +43,7 @@ export default function Home() {
         <div className="border-t border-border" />
 
         {/* About */}
-        <section id="about" className="mx-auto max-w-5xl px-6 py-20">
+        <section id="about" className="scroll-mt-20 mx-auto max-w-5xl px-6 py-20">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4">About</h2>
@@ -79,7 +79,7 @@ export default function Home() {
         <div className="border-t border-border" />
 
         {/* Principles */}
-        <section id="principles" className="mx-auto max-w-5xl px-6 py-20">
+        <section id="principles" className="scroll-mt-20 mx-auto max-w-5xl px-6 py-20">
           <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-8">Principles</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="space-y-2">
