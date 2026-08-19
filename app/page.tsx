@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { ChatWidget } from "@/components/chat/chat-widget"
 
 export default function Home() {
   return (
@@ -132,6 +133,9 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      {/* AI chat connected to Anthropic Claude */}
+      <ChatWidget />
     </div>
   )
 }
